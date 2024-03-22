@@ -2,15 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Weather Data API</title>
 </head>
 <body>
     <nav>
-        <a href="/home">Home</a>
+        <a href="/">Home</a>
         <a href="/about">About</a>
         <a href="/contact">Contact</a>
     </nav>
 
-    <img src="{{url_for('static', filename='cat.png')}}" style="width:400px">
+    <h1>Weather Data API</h1>
+
+    <p>URL format: http://127.0.0.1:5000/api/v1/*station/*date</p>
+    <p>URL example: http://127.0.0.1:5000/api/v1/10/20211030</p>
 </body>
 </html>
